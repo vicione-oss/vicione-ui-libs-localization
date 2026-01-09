@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VersionPlural" xml:space="preserve">
+    <value>Versionen</value>
+  </data>
+  <data name="OptionPlural" xml:space="preserve">
+    <value>Optionen</value>
+  </data>
+  <data name="IpAddress" xml:space="preserve">
+    <value>IP-Adresse</value>
+  </data>
+  <data name="ConnectionPlural" xml:space="preserve">
+    <value>Verbindungen</value>
+  </data>
+  <data name="DnsDomain" xml:space="preserve">
+    <value>DNS-Domain</value>
+  </data>
+  <data name="DnsSuffix" xml:space="preserve">
+    <value>DNS-Suffix</value>
+  </data>
+  <data name="DomainName" xml:space="preserve">
+    <value>Domainname</value>
+  </data>
+  <data name="Host" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="Hostname" xml:space="preserve">
+    <value>Hostname</value>
+  </data>
+  <data name="InstancePlural" xml:space="preserve">
+    <value>Instanzen</value>
+  </data>
+  <data name="SharedAccessSignatureKey" xml:space="preserve">
+    <value>Zugangsschlüssel Signatur</value>
+  </data>
+  <data name="TagPlural" xml:space="preserve">
+    <value>Tags</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Typ</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="UserManagement" xml:space="preserve">
+    <value>Benutzerverwaltung</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Benutzername</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Deaktiviert</value>
+  </data>
+  <data name="AppPlural" xml:space="preserve">
+    <value>Apps</value>
+  </data>
+  <data name="ApiKey" xml:space="preserve">
+    <value>API Schlüssel</value>
+  </data>
+  <data name="Cloud" xml:space="preserve">
+    <value>Cloud</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>Datenbank</value>
+  </data>
+  <data name="DatabaseType" xml:space="preserve">
+    <value>Datenbanktyp</value>
+  </data>
+  <data name="HardDisk" xml:space="preserve">
+    <value>Festplatte</value>
+  </data>
+  <data name="Memory" xml:space="preserve">
+    <value>Speicher</value>
+  </data>
+  <data name="Processor" xml:space="preserve">
+    <value>Prozessor</value>
+  </data>
+  <data name="ProxyPlural" xml:space="preserve">
+    <value>Proxies</value>
+  </data>
+  <data name="TcpWithTls" xml:space="preserve">
+    <value>TCP mit TLS</value>
+  </data>
+  <data name="Module" xml:space="preserve">
+    <value>Modul</value>
+  </data>
+  <data name="ModulePlural" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="Protocol" xml:space="preserve">
+    <value>Protokoll</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Clipboard" xml:space="preserve">
+    <value>Zwischenablage</value>
+  </data>
+  <data name="MacAddress" xml:space="preserve">
+    <value>Mac Adresse</value>
+  </data>
+  <data name="Placeholder" xml:space="preserve">
+    <value>Platzhalter</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Seriennummer</value>
+  </data>
+  <data name="Fullscreen" xml:space="preserve">
+    <value>Vollbild</value>
+  </data>
+  <data name="Connection" xml:space="preserve">
+    <value>Verbindung</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Anwendung</value>
+  </data>
+  <data name="ApplicationPlural" xml:space="preserve">
+    <value>Anwendungen</value>
+  </data>
+  <data name="Connectivity" xml:space="preserve">
+    <value>Konnektivität</value>
+  </data>
+  <data name="SerialNumberAbbreviation" xml:space="preserve">
+    <value>Seriennr.</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Eigenschaft</value>
+  </data>
+  <data name="PropertyPlural" xml:space="preserve">
+    <value>Eigenschaften</value>
+  </data>
+  <data name="Tag" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server</value>
+  </data>
+  <data name="WebSocket" xml:space="preserve">
+    <value>WebSocket</value>
+  </data>
+  <data name="AzureIotHub" xml:space="preserve">
+    <value>Azure IoT Hub</value>
+  </data>
+  <data name="DnsServer" xml:space="preserve">
+    <value>DNS Server</value>
+  </data>
+  <data name="DnsSettingPlural" xml:space="preserve">
+    <value>DNS Einstellungen</value>
+  </data>
+  <data name="SearchDomainPlural" xml:space="preserve">
+    <value>Suchdomänen</value>
+  </data>
+  <data name="StaticHostPlural" xml:space="preserve">
+    <value>Statische Hosts</value>
+  </data>
+  <data name="NtpServer" xml:space="preserve">
+    <value>NTP Server</value>
+  </data>
+  <data name="NtpServerPlural" xml:space="preserve">
+    <value>NTP Server</value>
+  </data>
+  <data name="NtpSettingPlural" xml:space="preserve">
+    <value>NTP Einstellungen</value>
+  </data>
+  <data name="FileSize" xml:space="preserve">
+    <value>Dateigröße</value>
+  </data>
+  <data name="FileSelection" xml:space="preserve">
+    <value>Dateiauswahl</value>
+  </data>
+  <data name="MulticastDns" xml:space="preserve">
+    <value>Multicast DNS</value>
+  </data>
+  <data name="ConnectionType" xml:space="preserve">
+    <value>Verbindungstyp</value>
+  </data>
+  <data name="ConnectionString" xml:space="preserve">
+    <value>Verbindungszeichenkette</value>
+  </data>
+  <data name="RemoteAccess" xml:space="preserve">
+    <value>Remote Access</value>
+  </data>
+  <data name="Terminal" xml:space="preserve">
+    <value>Terminal</value>
+  </data>
+  <data name="DhcpLease" xml:space="preserve">
+    <value>DHCP Lease</value>
+  </data>
+  <data name="Layout" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="DataType" xml:space="preserve">
+    <value>Datentyp</value>
+  </data>
+  <data name="Label" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="LabelPlural" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="SystemDefault" xml:space="preserve">
+    <value>Systemvoreinstellung</value>
+  </data>
+  <data name="UserInterface" xml:space="preserve">
+    <value>Benutzeroberfläche</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Wiederherstellung</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="Suite" xml:space="preserve">
+    <value>Suite</value>
+  </data>
+  <data name="DisplayLanguage" xml:space="preserve">
+    <value>Anzeigesprache</value>
+  </data>
+  <data name="ValueType" xml:space="preserve">
+    <value>Werttyp</value>
+  </data>
+  <data name="Timestamp" xml:space="preserve">
+    <value>Zeitstempel</value>
+  </data>
+  <data name="Event" xml:space="preserve">
+    <value>Ereignis</value>
+  </data>
+  <data name="PermissionPlural" xml:space="preserve">
+    <value>Berechtigungen</value>
+  </data>
+  <data name="Permission" xml:space="preserve">
+    <value>Berechtigung</value>
+  </data>
+  <data name="Theme" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="Input" xml:space="preserve">
+    <value>Eingang</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Weiter</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Deaktivieren</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>Aktivieren</value>
+  </data>
+  <data name="Command" xml:space="preserve">
+    <value>Befehl</value>
+  </data>
+  <data name="Backup" xml:space="preserve">
+    <value>Sicherung</value>
+  </data>
+  <data name="DefaultGateway" xml:space="preserve">
+    <value>Standardgateway</value>
+  </data>
+  <data name="SubnetMask" xml:space="preserve">
+    <value>Netzmaske</value>
+  </data>
+  <data name="InternetConnection" xml:space="preserve">
+    <value>Internetverbindung</value>
+  </data>
+  <data name="LocalNetwork" xml:space="preserve">
+    <value>Lokales Netzwerk</value>
+  </data>
+  <data name="SystemType" xml:space="preserve">
+    <value>Typ des Systems</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Branch</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Abbild</value>
+  </data>
+  <data name="Hardware" xml:space="preserve">
+    <value>Hardware</value>
+  </data>
+  <data name="Software" xml:space="preserve">
+    <value>Software</value>
+  </data>
+  <data name="Journal" xml:space="preserve">
+    <value>Protokollsammlung</value>
+  </data>
+  <data name="EventPlural" xml:space="preserve">
+    <value>Ereignisse</value>
+  </data>
+</root>
