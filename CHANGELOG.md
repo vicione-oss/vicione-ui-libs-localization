@@ -1,6 +1,8 @@
 # Changelog
 
-## 3.0.2 - Unreleased
+## 3.0.2 - 2027-01-19
+
+- Updated package project URL to reflect the migration to gitlab.com
 
 ## 3.0.1 - 2026-01-09
 
