@@ -408,4 +408,7 @@
   <data name="EventPlural" xml:space="preserve">
     <value>Ereignisse</value>
   </data>
+  <data name="Data" xml:space="preserve">
+    <value>Daten</value>
+  </data>
 </root>
