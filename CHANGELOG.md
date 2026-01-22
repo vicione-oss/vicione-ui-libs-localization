@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.1.0 - 2027-01-22
+
+- `TechnicalTerms`, added `Data`
+
 ## 3.0.2 - 2027-01-19
 
 - Updated package project URL to reflect the migration to gitlab.com
