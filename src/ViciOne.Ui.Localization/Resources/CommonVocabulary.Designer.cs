@@ -961,6 +961,15 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Overview.
+        /// </summary>
+        public static string Overview {
+            get {
+                return ResourceManager.GetString("Overview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Password.
         /// </summary>
         public static string Password {
@@ -1587,6 +1596,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string Undo {
             get {
                 return ResourceManager.GetString("Undo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uninstall.
+        /// </summary>
+        public static string UninstallVerb {
+            get {
+                return ResourceManager.GetString("UninstallVerb", resourceCulture);
             }
         }
         

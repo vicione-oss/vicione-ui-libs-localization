@@ -669,4 +669,10 @@
   <data name="ElementPlural" xml:space="preserve">
     <value>Elements</value>
   </data>
+  <data name="UninstallVerb" xml:space="preserve">
+    <value>Uninstall</value>
+  </data>
+  <data name="Overview" xml:space="preserve">
+    <value>Overview</value>
+  </data>
 </root>

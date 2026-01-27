@@ -1,10 +1,14 @@
 # Changelog
 
-## 3.1.0 - 2027-01-22
+## 3.2.0 - Unreleased
+
+- `CommonVocabulary`, added `Overview` and `UninstallVerb`
+
+## 3.1.0 - 2026-01-22
 
 - `TechnicalTerms`, added `Data`
 
-## 3.0.2 - 2027-01-19
+## 3.0.2 - 2026-01-19
 
 - Updated package project URL to reflect the migration to gitlab.com
 
