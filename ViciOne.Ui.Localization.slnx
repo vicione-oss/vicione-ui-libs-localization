@@ -13,7 +13,7 @@
     <File Path="global.json" />
     <File Path="NuGet.Config" />
     <File Path="README.md" />
-    <File Path="tests.runsettings" />
+    <File Path="testconfig.json" />
     <File Path="VERSION" />
   </Folder>
   <Folder Name="/src/">

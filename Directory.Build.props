@@ -1,22 +1,4 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <!-- Versioning -->
-    <PropertyGroup>
-        <VersionWithSuffix>$([System.IO.File]::ReadAllText('$(MsBuildThisFileDirectory)VERSION').Trim())</VersionWithSuffix>
-        <!-- Use version 0.1.0 when no version could be retrieved from VERSION file -->
-        <VersionPrefix Condition="$(VersionWithSuffix) == ''">0.1.0</VersionPrefix>
-        <VersionPrefix Condition="$(VersionWithSuffix.Contains('-')) == true">$(VersionWithSuffix.Substring(0, $(VersionWithSuffix.IndexOf('-'))))</VersionPrefix>
-        <VersionPrefix Condition="$(VersionWithSuffix.Contains('-')) == false">$(VersionWithSuffix)</VersionPrefix>
-        <!-- Append suffix optionally stated in VERSION file -->
-        <VersionSuffix></VersionSuffix>
-        <VersionSuffix Condition="$(VersionWithSuffix.Contains('-')) == true">$(VersionWithSuffix.Substring($(VersionWithSuffix.IndexOf('-'))))</VersionSuffix>
-        <VersionSuffix Condition="$(VersionSuffix.Contains('-')) == true">$(VersionSuffix.Substring(1))</VersionSuffix>
-        <!-- Set package version from VersionPrefix -->
-        <PackageVersion>$(VersionPrefix)</PackageVersion>
-        <PackageVersion Condition="$(VersionSuffix) != ''">$(PackageVersion)-$(VersionSuffix)</PackageVersion>
-        <!-- Use PackageVersionSuffix when possible, otherwise use VersionPrefix -->
-        <PackageVersion Condition="$(PackageVersionSuffix) != ''">$(VersionPrefix).$(PackageVersionSuffix)</PackageVersion>
-    </PropertyGroup>
-
     <!-- Properties for all projects -->
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
@@ -56,27 +38,22 @@
 
     <!-- Exclude test projects from publish / NuGet packaging -->
     <PropertyGroup Condition="$(MSBuildProjectName.EndsWith('Tests'))">
+        <OutputType>Exe</OutputType>
         <IsPackable>false</IsPackable>
-        <IsPublishable>false</IsPublishable>
+        <IsPublishable>true</IsPublishable>
+        <UseMicrosoftTestingPlatformRunner>true</UseMicrosoftTestingPlatformRunner>
+        <!-- Microsoft Testing Platform command line experience -->
     </PropertyGroup>
 
     <!-- Add Test.SDK / xUnit package references to test projects -->
     <ItemGroup Condition="$(MSBuildProjectName.EndsWith('Tests'))">
-        <PackageReference Include="Microsoft.NET.Test.Sdk" />
-        <PackageReference Include="xunit" />
-        <PackageReference Include="xunit.runner.visualstudio">
-            <PrivateAssets>all</PrivateAssets>
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-        </PackageReference>
-        <PackageReference Include="coverlet.collector">
-            <PrivateAssets>all</PrivateAssets>
-            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-        </PackageReference>
+        <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" />
         <PackageReference Include="NSubstitute" />
         <PackageReference Include="NSubstitute.Analyzers.CSharp">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
+        <PackageReference Include="xunit.v3.mtp-v2" />      
     </ItemGroup>
 
     <!-- Exclude sample projects from publish / NuGet packaging -->
