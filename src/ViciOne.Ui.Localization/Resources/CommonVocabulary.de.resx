@@ -675,4 +675,7 @@
   <data name="Overview" xml:space="preserve">
     <value>Übersicht</value>
   </data>
+  <data name="DetailPlural" xml:space="preserve">
+    <value>Details</value>
+  </data>
 </root>

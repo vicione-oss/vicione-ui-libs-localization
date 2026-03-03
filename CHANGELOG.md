@@ -1,8 +1,10 @@
 # Changelog
 
-## 3.2.0 - Unreleased
+## 3.2.0 - 2026-03-03
 
-- `CommonVocabulary`, added `Overview` and `UninstallVerb`
+- `CommonVocabulary`, added `Overview`, `UninstallVerb` and `DetailPlural`
+- `LibraryManagement`, added `InstalledVersion`, `PendingInstallationOfSpecificVersion`, `PendingUninstallation`, `PendingUpdateToSpecificVersion` and `UpdateToSpecificVersionAvailable`
+- `UserActions`, added `InstallVersion`
 
 ## 3.1.0 - 2026-01-22
 

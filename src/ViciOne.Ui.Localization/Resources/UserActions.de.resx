@@ -156,6 +156,9 @@
   <data name="ImportSomething" xml:space="preserve">
     <value>{0} importieren</value>
   </data>
+  <data name="InstallVersion" xml:space="preserve">
+    <value>Version installieren</value>
+  </data>
   <data name="LoadSomething" xml:space="preserve">
     <value>{0} laden</value>
   </data>

@@ -6,6 +6,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Update="Resources\LibraryManagement.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LibraryManagement.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resources\UserActions.Designer.cs">
       <DependentUpon>UserActions.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -47,6 +52,10 @@
     <EmbeddedResource Update="Resources\CommonPatterns.resx">
       <LastGenOutput>CommonPatterns.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\LibraryManagement.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LibraryManagement.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\UserActions.resx">
       <LastGenOutput>UserActions.Designer.cs</LastGenOutput>
