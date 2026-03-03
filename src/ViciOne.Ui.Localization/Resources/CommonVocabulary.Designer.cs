@@ -412,6 +412,15 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Details.
+        /// </summary>
+        public static string DetailPlural {
+            get {
+                return ResourceManager.GetString("DetailPlural", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Device.
         /// </summary>
         public static string Device {
