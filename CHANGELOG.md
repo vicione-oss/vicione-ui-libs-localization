@@ -2,6 +2,8 @@
 
 ## 3.3.0 - Unreleased
 
+- `CommonVocabulary`, added `Category` and `CategoryPlural`
+
 ## 3.2.0 - 2026-03-03
 
 - `CommonVocabulary`, added `Overview`, `UninstallVerb` and `DetailPlural`

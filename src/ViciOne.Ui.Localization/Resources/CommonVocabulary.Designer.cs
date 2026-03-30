@@ -196,6 +196,24 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Category.
+        /// </summary>
+        public static string Category {
+            get {
+                return ResourceManager.GetString("Category", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Categories.
+        /// </summary>
+        public static string CategoryPlural {
+            get {
+                return ResourceManager.GetString("CategoryPlural", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cellphone.
         /// </summary>
         public static string Cellphone {
