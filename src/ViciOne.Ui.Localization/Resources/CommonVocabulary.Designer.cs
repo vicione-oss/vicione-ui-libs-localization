@@ -196,24 +196,6 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Category.
-        /// </summary>
-        public static string Category {
-            get {
-                return ResourceManager.GetString("Category", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Categories.
-        /// </summary>
-        public static string CategoryPlural {
-            get {
-                return ResourceManager.GetString("CategoryPlural", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Cellphone.
         /// </summary>
         public static string Cellphone {
@@ -696,6 +678,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string GuidelinePlural {
             get {
                 return ResourceManager.GetString("GuidelinePlural", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Height.
+        /// </summary>
+        public static string Height {
+            get {
+                return ResourceManager.GetString("Height", resourceCulture);
             }
         }
         
@@ -1740,6 +1731,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string Welcome {
             get {
                 return ResourceManager.GetString("Welcome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Width.
+        /// </summary>
+        public static string Width {
+            get {
+                return ResourceManager.GetString("Width", resourceCulture);
             }
         }
         

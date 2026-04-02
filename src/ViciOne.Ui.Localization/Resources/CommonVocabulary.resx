@@ -336,14 +336,8 @@
   <data name="Role" xml:space="preserve">
     <value>Role</value>
   </data>
-  <data name="Category" xml:space="preserve">
-    <value>Category</value>
-  </data>
   <data name="RolePlural" xml:space="preserve">
     <value>Roles</value>
-  </data>
-  <data name="CategoryPlural" xml:space="preserve">
-    <value>Categories</value>
   </data>
   <data name="TestVerb" xml:space="preserve">
     <value>Test</value>
@@ -683,5 +677,11 @@
   </data>
   <data name="DetailPlural" xml:space="preserve">
     <value>Details</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Height</value>
   </data>
 </root>

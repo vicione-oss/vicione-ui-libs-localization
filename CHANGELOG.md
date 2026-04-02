@@ -1,8 +1,8 @@
 # Changelog
 
-## 3.3.0 - Unreleased
+## 3.3.0 - 2026-04-02
 
-- `CommonVocabulary`, added `Category` and `CategoryPlural`
+- `CommonVocabulary`, added `Height` and `Width`
 
 ## 3.2.0 - 2026-03-03
 
