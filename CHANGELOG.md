@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4.0 - Unreleased
+
+- Updated to .NET `10.0.8`
+
 ## 3.3.0 - 2026-04-02
 
 - `CommonVocabulary`, added `Height` and `Width`
