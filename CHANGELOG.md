@@ -1,9 +1,13 @@
 # Changelog
 
-## 3.4.0 - Unreleased
+## 3.4.0 - 2026-06-09
 
 - Updated to .NET `10.0.8`
-
+- `CommonVocabulary`, added `Active`, `Feedback`, `ManualVerb`, `Note`, `Source` and `SourcePlural`
+- `LegalTerms`, added `PrivacyPolicy`
+- `TechnicalTerms`, added `Endpoint`
+- `UserActions`, added `ShowMore`
+ 
 ## 3.3.0 - 2026-04-02
 
 - `CommonVocabulary`, added `Height` and `Width`

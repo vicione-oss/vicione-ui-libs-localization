@@ -88,6 +88,15 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Active.
+        /// </summary>
+        public static string Active {
+            get {
+                return ResourceManager.GetString("Active", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add.
         /// </summary>
         public static string Add {
@@ -592,6 +601,15 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Feedback.
+        /// </summary>
+        public static string Feedback {
+            get {
+                return ResourceManager.GetString("Feedback", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
         public static string File {
@@ -844,6 +862,15 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Manual.
+        /// </summary>
+        public static string ManualVerb {
+            get {
+                return ResourceManager.GetString("ManualVerb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Maximum.
         /// </summary>
         public static string Maximum {
@@ -939,6 +966,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string NormalVerb {
             get {
                 return ResourceManager.GetString("NormalVerb", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Note.
+        /// </summary>
+        public static string Note {
+            get {
+                return ResourceManager.GetString("Note", resourceCulture);
             }
         }
         
@@ -1434,6 +1470,24 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string Soon {
             get {
                 return ResourceManager.GetString("Soon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Source.
+        /// </summary>
+        public static string Source {
+            get {
+                return ResourceManager.GetString("Source", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sources.
+        /// </summary>
+        public static string SourcePlural {
+            get {
+                return ResourceManager.GetString("SourcePlural", resourceCulture);
             }
         }
         

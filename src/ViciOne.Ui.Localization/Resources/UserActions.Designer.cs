@@ -241,6 +241,15 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Show more.
+        /// </summary>
+        public static string ShowMore {
+            get {
+                return ResourceManager.GetString("ShowMore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sort {0}.
         /// </summary>
         public static string SortSomething {

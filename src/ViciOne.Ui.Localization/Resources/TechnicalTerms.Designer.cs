@@ -194,18 +194,16 @@ namespace ViciOne.Ui.Localization.Resources {
                 return ResourceManager.GetString("Connectivity", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Data.
         /// </summary>
-        public static string Data
-        {
-            get
-            {
+        public static string Data {
+            get {
                 return ResourceManager.GetString("Data", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Database.
         /// </summary>
@@ -329,6 +327,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string Enable {
             get {
                 return ResourceManager.GetString("Enable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Endpoint.
+        /// </summary>
+        public static string Endpoint {
+            get {
+                return ResourceManager.GetString("Endpoint", resourceCulture);
             }
         }
         
