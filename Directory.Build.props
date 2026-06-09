@@ -53,7 +53,12 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="xunit.v3.mtp-v2" />      
+        <PackageReference Include="xunit.v3.mtp-v2" />
+    </ItemGroup>
+
+    <!-- Configure xunit runner for test projects -->
+    <ItemGroup Condition="$(MSBuildProjectName.EndsWith('Tests'))">
+        <Content Include="$(MSBuildThisFileDirectory)/tests/xunit.runner.json" CopyToOutputDirectory="PreserveNewest" />
     </ItemGroup>
 
     <!-- Exclude sample projects from publish / NuGet packaging -->
