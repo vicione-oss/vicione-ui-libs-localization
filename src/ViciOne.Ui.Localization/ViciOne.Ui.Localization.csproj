@@ -6,6 +6,11 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Update="Resources\LegalTerms.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LegalTerms.resx</DependentUpon>
+    </Compile>
     <Compile Update="Resources\LibraryManagement.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -52,6 +57,10 @@
     <EmbeddedResource Update="Resources\CommonPatterns.resx">
       <LastGenOutput>CommonPatterns.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\LegalTerms.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LegalTerms.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\LibraryManagement.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

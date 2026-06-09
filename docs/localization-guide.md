@@ -24,6 +24,7 @@ This document describes the rules and recommendations for the implementation of 
     | [`CommonPhrases`](../src/ViciOne.Ui.Localization/Resources/CommonPhrases.Designer.cs) | Common phrases like `An unknown error occurred.` |
     | [`CommonVocabulary`](../src/ViciOne.Ui.Localization/Resources/CommonVocabulary.Designer.cs) | Common vocabulary like `Yes` or `No` |
     | [`LibraryManagement`](../src/ViciOne.Ui.Localization/Resources/LibraryManagement.Designer.cs) | Phrases like `Pending installation of version` that are used in context of library management |
+    | [`LegalTerms`](../src/ViciOne.Ui.Localization/Resources/LegalTerms.Designer.cs) | Phrases like `PrivacyPolicy` that are used in context of legal terms |
     | [`ProductNames`](../src/ViciOne.Ui.Localization/Resources/ProductNames.Designer.cs) | Product names like `moneo \| automation` |
     | [`TechnicalAcronyms`](../src/ViciOne.Ui.Localization/Resources/TechnicalAcronyms.Designer.cs) | Technical [acronyms](https://de.wikipedia.org/wiki/Akronym) like `TCP` |
     | [`TechnicalTerms`](../src/ViciOne.Ui.Localization/Resources/TechnicalTerms.Designer.cs) | Technical terms like `Data port` |

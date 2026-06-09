@@ -177,6 +177,9 @@
   <data name="SetSomething" xml:space="preserve">
     <value>{0} setzen</value>
   </data>
+  <data name="ShowMore" xml:space="preserve">
+    <value>Mehr anzeigen</value>
+  </data>
   <data name="SortSomething" xml:space="preserve">
     <value>{0} sortieren</value>
   </data>
