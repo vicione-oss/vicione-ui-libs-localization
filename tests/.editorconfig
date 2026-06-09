@@ -1,0 +1,38 @@
+[*.cs]
+dotnet_diagnostic.IDE0120.severity = warning # Simplify LINQ expression
+
+dotnet_diagnostic.CA1515.severity = none # Because an application's API isn't typically referenced from outside the assembly, types can be made internal
+dotnet_diagnostic.CA1812.severity = none # Avoid uninstantiated internal classes
+dotnet_diagnostic.CA1822.severity = warning # Mark members as static
+dotnet_diagnostic.CA1826.severity = warning # Use property instead of Linq Enumerable method
+dotnet_diagnostic.CA1849.severity = warning # Call async methods when in an async method
+dotnet_diagnostic.CA1859.severity = warning # Use concrete types when possible for improved performance
+dotnet_diagnostic.CA1863.severity = warning # Cache a 'CompositeFormat' for repeated use in this formatting operation
+dotnet_diagnostic.CA2251.severity = warning # Use 'string.Equals' instead of comparing the result of 'string.Compare' to 0
+dotnet_diagnostic.CA2263.severity = warning # Prefer generic overload when type is known
+
+dotnet_diagnostic.SYSLIB1006.severity = warning # Multiple logging methods cannot use the same event ID
+
+[**{Tests}*.cs]
+dotnet_diagnostic.RCS1046.severity = none # Asynchronous method name should end with 'Async'
+
+# https://aka.ms/editorconfigdocs
+
+#
+# Configure IDE1006 to somewhat check snake case naming for test methods.
+# ===========================
+
+# Define the 'test_method' symbol group:
+dotnet_naming_symbols.test_method.applicable_kinds = method
+dotnet_naming_symbols.test_method.applicable_accessibilities = public
+dotnet_naming_symbols.test_method.required_modifiers = 
+
+# Defining the 'test_method_naming_style' naming style
+dotnet_naming_style.test_method_naming_style.capitalization = first_word_upper
+dotnet_naming_style.test_method_naming_style.word_separator = _
+dotnet_naming_style.test_method_naming_style.required_suffix = 
+
+# Defining the 'test_method_naming_rule' naming rule
+dotnet_naming_rule.test_method_naming_rule.symbols  = test_method
+dotnet_naming_rule.test_method_naming_rule.style    = test_method_naming_style
+dotnet_naming_rule.test_method_naming_rule.severity = default
