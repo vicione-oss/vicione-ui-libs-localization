@@ -51,6 +51,7 @@ stages:
   - build
   - test
   - pack
+  - push
   - publish
 
 Version:
@@ -70,7 +71,8 @@ Version:
 
 ### CI Components ###
 include:
-  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-restore@2.1.1
+  ### Restore
+  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-restore@2.2.4
     inputs:
       image: ${IMAGE_NAME}
       rules: *rules
@@ -79,8 +81,8 @@ include:
         - *update_nuget_source_ro
       tags:
         - ${RUNNER_TAG}
-  ### Test & Build
-  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-build@2.1.1
+  ### Build
+  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-build@2.2.4
     inputs:
       image: ${IMAGE_NAME}
       rules: *rules
@@ -90,7 +92,8 @@ include:
         - echo "$Version"
       tags:
         - ${RUNNER_TAG}
-  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-test@2.1.1
+  ### Test
+  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-test@2.2.4
     inputs:
       image: ${IMAGE_NAME}
       rules: *rules
@@ -100,8 +103,8 @@ include:
       tags:
         - ${RUNNER_TAG}
       coverage: true
-  ### NuGet Packages
-  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-pack@2.1.1
+  ### Pack
+  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-pack@2.2.4
     inputs:
       image: ${IMAGE_NAME}
       rules: *rules_manual
@@ -110,12 +113,14 @@ include:
         - 'echo "PackageVersion: ${PackageVersion:-notAssigned}"'
       tags:
         - ${RUNNER_TAG}
-  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-nuget-push@2.1.1
+  ### Push
+  - component: $CI_SERVER_FQDN/vicione-oss/tooling/dotnet-component/dotnet-nuget-push@2.2.4
     inputs:
+      stage: "push"
       image: ${IMAGE_NAME}
       source: "JFrogViciOne"
       filename_pattern: "./src/*"
-      rules: *rules_manual
+      rules: *rules
       before_script:
         - *activate_mise
         - *update_nuget_source_rw
