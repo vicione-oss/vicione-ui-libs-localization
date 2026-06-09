@@ -17,9 +17,11 @@
     <File Path="VERSION" />
   </Folder>
   <Folder Name="/src/">
+    <File Path="src/.editorconfig" />
     <Project Path="src/ViciOne.Ui.Localization/ViciOne.Ui.Localization.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <File Path="tests/.editorconfig" />
     <Project Path="tests/ViciOne.Ui.Localization.Tests/ViciOne.Ui.Localization.Tests.csproj" />
   </Folder>
 </Solution>
