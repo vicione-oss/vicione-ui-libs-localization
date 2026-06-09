@@ -8,7 +8,7 @@ namespace ViciOne.Ui.Localization.Tests.Extensions;
 public sealed class TimeSpanExtensionsTests
 {
     [Fact]
-    public void ShouldLocalizeSingleDay()
+    public void Should_localize_single_day()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -23,7 +23,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldLocalizeMultipleDays()
+    public void Should_localize_multiple_days()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -38,7 +38,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldNotReturnDays()
+    public void Should_not_return_days()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -53,7 +53,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldLocalizeSingleHour()
+    public void Should_localize_single_hour()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -68,7 +68,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldLocalizeMultipleHours()
+    public void Should_localize_multiple_hours()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -83,7 +83,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldNotReturnHours()
+    public void Should_not_return_hours()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -98,7 +98,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldLocalizeSingleMinute()
+    public void Should_localize_single_minute()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -113,7 +113,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldLocalizeMultipleMinutes()
+    public void Should_localize_multiple_minutes()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -128,7 +128,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldNotReturnMinutes()
+    public void Should_not_return_minutes()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -143,7 +143,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldLocalizeSingleSecond()
+    public void Should_localize_single_second()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
@@ -158,7 +158,7 @@ public sealed class TimeSpanExtensionsTests
     }
 
     [Fact]
-    public void ShouldLocalizeMultipleSeconds()
+    public void Should_localize_multiple_seconds()
     {
         // Arrange
         var dateTimeNow = DateTime.Now;
