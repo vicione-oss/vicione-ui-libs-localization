@@ -12,7 +12,7 @@ public sealed class IntExtensionsTests
     [InlineData(100_000, "KB")]
     [InlineData(100_000_000, "MB")]
     [InlineData(2_000_000_000, "GB")]
-    public void ShouldReturnCorrectMeasurementUnit(int bytes, string measurementUnit)
+    public void Should_return_correct_measurement_unit(int bytes, string measurementUnit)
     {
         // Act
         if (bytes > int.MaxValue)
@@ -30,7 +30,7 @@ public sealed class IntExtensionsTests
     [InlineData(null, 333_333_333, "317.89 MB")]
     [InlineData("en-GB", 333_333_333, "317.89 MB")]
     [InlineData("de-DE", 333_333_333, "317,89 MB")]
-    public void ShouldUseCultureProvider(string? cultureName, int bytes, string expectedResult)
+    public void Should_use_culture_provider(string? cultureName, int bytes, string expectedResult)
     {
         // Arrange
         var cultureInfo = !string.IsNullOrEmpty(cultureName) ? new CultureInfo(cultureName) : null;

@@ -15,7 +15,7 @@ public sealed class DateTimeOffsetExtensionsTests
     [Theory]
     [InlineData("de-DE", "16. Oktober 2025")]
     [InlineData("en-US", "October 16, 2025")]
-    public void ShouldReturnCorrectLongDateLocalizationWhenDateIsNotNull(string culture, string expected)
+    public void Should_return_correct_long_date_localization_when_date_is_not_null(string culture, string expected)
     {
         // Arrange
         CultureInfo.CurrentCulture = new CultureInfo(culture);
@@ -28,7 +28,7 @@ public sealed class DateTimeOffsetExtensionsTests
     }
 
     [Fact]
-    public void ShouldReturnUnknownWhenDateIsNull()
+    public void Should_return_unknown_when_date_is_null()
     {
         // Arrange
         DateTimeOffset? date = null;
@@ -43,7 +43,7 @@ public sealed class DateTimeOffsetExtensionsTests
     [Theory]
     [InlineData("de-DE", "16.10.2025")]
     [InlineData("en-US", "10/16/2025")]
-    public void ShouldReturnCorrectShortDateLocalization(string culture, string expected)
+    public void Should_return_correct_short_date_localization(string culture, string expected)
     {
         // Arrange
         CultureInfo.CurrentCulture = new CultureInfo(culture);
@@ -58,7 +58,7 @@ public sealed class DateTimeOffsetExtensionsTests
     [Theory]
     [InlineData("de-DE", "11:30")]
     [InlineData("en-US", "AM")]
-    public void ShouldReturnCorrectShortTimeLocalization(string culture, string expected)
+    public void Should_return_correct_short_time_localization(string culture, string expected)
     {
         // Arrange
         CultureInfo.CurrentCulture = new CultureInfo(culture);
@@ -71,7 +71,7 @@ public sealed class DateTimeOffsetExtensionsTests
     }
 
     [Fact]
-    public void ShouldReturnCorrectDateWithOffset()
+    public void Should_return_correct_date_with_offset()
     {
         // Arrange
         var timeZone = TimeZoneInfo.FindSystemTimeZoneById(
@@ -87,7 +87,7 @@ public sealed class DateTimeOffsetExtensionsTests
     }
 
     [Fact]
-    public void ShouldReturnNullWhenDateIsNull()
+    public void Should_return_null_when_date_is_null()
     {
         // Arrange
         DateTimeOffset? date = null;
