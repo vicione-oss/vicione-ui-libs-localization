@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.5.0 - 2026-07-09
+
+- `CommonVocabulary`, added `Area` and `AreaPlural`
+
 ## 3.4.0 - 2026-06-09
 
 - Updated to .NET `10.0.8`
