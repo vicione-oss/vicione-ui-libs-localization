@@ -1,5 +1,7 @@
 # Changelog
 
+## 3.7.0 - Unreleased
+
 ## 3.6.0 - 2026-09-23
 
 - `CommonVocabulary`, added `Apply`
