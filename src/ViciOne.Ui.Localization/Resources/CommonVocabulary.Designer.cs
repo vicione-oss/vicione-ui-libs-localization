@@ -86,24 +86,6 @@ namespace ViciOne.Ui.Localization.Resources {
                 return ResourceManager.GetString("ActionPlural", resourceCulture);
             }
         }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Area.
-        /// </summary>
-        public static string Area {
-            get {
-                return ResourceManager.GetString("Area", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Areas.
-        /// </summary>
-        public static string AreaPlural {
-            get {
-                return ResourceManager.GetString("AreaPlural", resourceCulture);
-            }
-        }
         
         /// <summary>
         ///   Looks up a localized string similar to Active.
@@ -165,6 +147,33 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string Appearance {
             get {
                 return ResourceManager.GetString("Appearance", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Apply.
+        /// </summary>
+        public static string Apply {
+            get {
+                return ResourceManager.GetString("Apply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Area.
+        /// </summary>
+        public static string Area {
+            get {
+                return ResourceManager.GetString("Area", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Areas.
+        /// </summary>
+        public static string AreaPlural {
+            get {
+                return ResourceManager.GetString("AreaPlural", resourceCulture);
             }
         }
         
