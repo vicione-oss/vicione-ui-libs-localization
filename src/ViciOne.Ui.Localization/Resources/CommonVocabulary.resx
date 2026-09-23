@@ -708,4 +708,7 @@
   <data name="SourcePlural" xml:space="preserve">
     <value>Sources</value>
   </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
 </root>

@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.6.0 - 2026-09-23
+
+- `CommonVocabulary`, added `Apply`
+
 ## 3.5.0 - 2026-07-09
 
 - `CommonVocabulary`, added `Area` and `AreaPlural`
