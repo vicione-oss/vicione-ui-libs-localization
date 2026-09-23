@@ -94,7 +94,7 @@
       "groupSlug": "net-sdk",
       "group": {
         "commitMessageTopic": ".NET SDK",
-        "commitMessageExtra": "to {{{upgrades.[0].newVersion}}}"
+        "commitMessageExtra": "to {{{newVersion}}}"
       }
     },
     {
