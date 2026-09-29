@@ -4,7 +4,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <Description>Localization for the ViciOne product family</Description>
         <Product>ViciOne Localization</Product>
-        <Company>ifm software</Company>
+        <Company>ViciOne open automation gmbh</Company>
         <Year>$([System.DateTime]::Now.Year)</Year>
         <Copyright>Copyright © $(Company) $(Year)</Copyright>
         <NeutralLanguage>en-US</NeutralLanguage>
