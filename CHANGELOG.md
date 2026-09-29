@@ -2,6 +2,10 @@
 
 ## 3.7.0 - Unreleased
 
+### Changed
+
+- Rename the company to `ViciOne open automation gmbh` in the license and the package metadata
+
 ## 3.6.0 - 2026-09-23
 
 - `CommonVocabulary`, added `Apply`
