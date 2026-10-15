@@ -124,6 +124,24 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Browser.
+        /// </summary>
+        public static string Browser {
+            get {
+                return ResourceManager.GetString("Browser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Browser language.
+        /// </summary>
+        public static string BrowserLanguage {
+            get {
+                return ResourceManager.GetString("BrowserLanguage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Clipboard.
         /// </summary>
         public static string Clipboard {
@@ -529,6 +547,15 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Login method.
+        /// </summary>
+        public static string LoginMethod {
+            get {
+                return ResourceManager.GetString("LoginMethod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to MAC address.
         /// </summary>
         public static string MacAddress {
@@ -808,6 +835,15 @@ namespace ViciOne.Ui.Localization.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to System information.
+        /// </summary>
+        public static string SystemInformation {
+            get {
+                return ResourceManager.GetString("SystemInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to System type.
         /// </summary>
         public static string SystemType {
@@ -840,6 +876,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string TcpWithTls {
             get {
                 return ResourceManager.GetString("TcpWithTls", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Technical information.
+        /// </summary>
+        public static string TechnicalInformation {
+            get {
+                return ResourceManager.GetString("TechnicalInformation", resourceCulture);
             }
         }
         
@@ -885,6 +930,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string Update {
             get {
                 return ResourceManager.GetString("Update", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to User agent.
+        /// </summary>
+        public static string UserAgent {
+            get {
+                return ResourceManager.GetString("UserAgent", resourceCulture);
             }
         }
         
@@ -948,6 +1002,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string WebSocket {
             get {
                 return ResourceManager.GetString("WebSocket", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Window size.
+        /// </summary>
+        public static string WindowSize {
+            get {
+                return ResourceManager.GetString("WindowSize", resourceCulture);
             }
         }
     }

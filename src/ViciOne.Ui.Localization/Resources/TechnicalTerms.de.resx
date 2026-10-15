@@ -414,4 +414,25 @@
   <data name="Endpoint" xml:space="preserve">
     <value>Endpunkt</value>
   </data>
+  <data name="Browser" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="BrowserLanguage" xml:space="preserve">
+    <value>Browsersprache</value>
+  </data>
+  <data name="LoginMethod" xml:space="preserve">
+    <value>Anmeldeverfahren</value>
+  </data>
+  <data name="SystemInformation" xml:space="preserve">
+    <value>Systeminformationen</value>
+  </data>
+  <data name="TechnicalInformation" xml:space="preserve">
+    <value>Technische Informationen</value>
+  </data>
+  <data name="UserAgent" xml:space="preserve">
+    <value>User-Agent</value>
+  </data>
+  <data name="WindowSize" xml:space="preserve">
+    <value>Fenstergröße</value>
+  </data>
 </root>

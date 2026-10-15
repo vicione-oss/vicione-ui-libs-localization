@@ -2,6 +2,11 @@
 
 ## 3.7.0 - Unreleased
 
+### Added
+
+- `CommonVocabulary`, added `Attachment`, `AttachmentPlural`, `Copy`, `Created`, `Idea`, `Page`, `Praise`, `Problem`, `Question`, `Reference`, `Screenshot`, `SendVerb` and `Severity`
+- `TechnicalTerms`, added `Browser`, `BrowserLanguage`, `LoginMethod`, `SystemInformation`, `TechnicalInformation`, `UserAgent` and `WindowSize`
+
 ### Changed
 
 - Rename the company to `ViciOne open automation gmbh` in the license and the package metadata
