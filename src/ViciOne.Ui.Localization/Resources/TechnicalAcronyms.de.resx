@@ -153,7 +153,10 @@
   <data name="Sdk" xml:space="preserve">
     <value>SDK</value>
   </data>
-  <data name="LAN" xml:space="preserve">
+  <data name="Lan" xml:space="preserve">
     <value>LAN</value>
+  </data>
+  <data name="Smtp" xml:space="preserve">
+    <value>SMTP</value>
   </data>
 </root>
