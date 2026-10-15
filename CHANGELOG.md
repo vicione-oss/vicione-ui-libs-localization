@@ -1,15 +1,17 @@
 # Changelog
 
-## 3.7.0 - Unreleased
+## 3.7.0 - 2026-10-15
 
 ### Added
 
 - `CommonVocabulary`, added `Attachment`, `AttachmentPlural`, `Copy`, `Created`, `Idea`, `Page`, `Praise`, `Problem`, `Question`, `Reference`, `Screenshot`, `SendVerb` and `Severity`
+- `TechnicalAcronyms`, added `Smtp`
 - `TechnicalTerms`, added `Browser`, `BrowserLanguage`, `LoginMethod`, `SystemInformation`, `TechnicalInformation`, `UserAgent` and `WindowSize`
 
 ### Changed
 
 - Rename the company to `ViciOne open automation gmbh` in the license and the package metadata
+- `TechnicalAcronyms`, renamed `LAN` to `Lan`
 
 ## 3.6.0 - 2026-09-23
 

@@ -99,9 +99,9 @@ namespace ViciOne.Ui.Localization.Resources {
         /// <summary>
         ///   Looks up a localized string similar to LAN.
         /// </summary>
-        public static string LAN {
+        public static string Lan {
             get {
-                return ResourceManager.GetString("LAN", resourceCulture);
+                return ResourceManager.GetString("Lan", resourceCulture);
             }
         }
         
@@ -138,6 +138,15 @@ namespace ViciOne.Ui.Localization.Resources {
         public static string Sdk {
             get {
                 return ResourceManager.GetString("Sdk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to SMTP.
+        /// </summary>
+        public static string Smtp {
+            get {
+                return ResourceManager.GetString("Smtp", resourceCulture);
             }
         }
         
